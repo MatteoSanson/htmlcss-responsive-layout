@@ -6,7 +6,7 @@
 
 
 body {
-    width: 100vw;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -54,6 +54,34 @@ header {
 section.bianca {
     width: 100%;
 }
+
+.container {
+    /* debug  */
+    height: 715px;
+    /* debug  */
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.container .box {
+    width: calc((100% / 3) - 50px);
+    background: #b5ddff;
+    border-radius: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.container .box.grande {
+    width: calc((100% / 3 * 2) - 50px);
+    flex-grow: 2;
+    text-align: center;
+}
+
 /* #endregion main  */
 
 
@@ -67,12 +95,13 @@ section.bianca {
 
 /* responsive tablet  */
 
-/* ++++ navbar ++++ */
 @media screen and (max-width:992px){
     body {
         max-width: 992px;
     }
 
+
+    /* header  */
     .nav-bar {
         width: 95%;
         position: relative;
@@ -91,9 +120,18 @@ section.bianca {
     .nav-right .menu {
         display: none;
     }
+    /* /header  */
+
+
+    /* main  */
+    /* prima sezione bianca  */ 
+    .container {
+        width: 95%;
+    }
+    /* /prima sezione bianca  */
+    /* /main  */
 
 }
-/* ++++ /navbar ++++  */
 
 /* /responsive tablet  */
 
@@ -105,10 +143,10 @@ section.bianca {
         max-width: 768px;
     }
 
+    /* header  */
     .nav-bar {
-        width: 95%;
+        width: 90%;
         position: relative;
-        /* align-items: center; */
         font-size: 2rem;
     }
 
@@ -123,6 +161,30 @@ section.bianca {
     .nav-right .menu {
         display: none;
     }
+    /* /header  */
 
+
+    /* main  */
+    /* prima sezione bianca  */
+    section.bianca .container {
+        /* debug  */
+        height: 2075px;
+        /* /debug  */
+        width: 90%;
+        display: block;
+    }
+
+    .container .box {
+        height: 350px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container .box.grande {
+        height: 600px;
+        width: 100%;
+    }
+    /* /prima sezione bianca  */
+    /* /main  */
 }
 /* /responsive mobile  */
