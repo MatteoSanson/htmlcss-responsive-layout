@@ -142,24 +142,25 @@ section.viola {
 
 
 /* seconda sezione viola  */
-.container {
+.container.viola2 {
     /* debug  */
-    height: 715px;
-    /* debug  */
+    height: 815px;
+    /* debug */
     width: 70%;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
 }
 
-.viola .container .box {
+.viola .container.viola2 .box {
     width: calc((100% / 3) - 50px);
     background: white;
     border-radius: 20px;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .viola {
