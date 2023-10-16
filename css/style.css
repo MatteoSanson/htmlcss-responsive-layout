@@ -51,9 +51,7 @@ header {
 
 
 /* #region main */
-section.bianca {
-    width: 100%;
-}
+/* prima sezione bianca  */
 
 .container {
     /* debug  */
@@ -81,6 +79,35 @@ section.bianca {
     flex-grow: 2;
     text-align: center;
 }
+/* /prima sezione bianca  */
+
+
+/* sezione viola  */
+section.viola {
+    /* debug  */
+    height: 900px;
+    /* debug  */
+    background: #9792e4;
+}
+
+.container.viola {
+    /* debug  */
+    height: 900px;
+    /* debug  */
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    gap: 0;
+}
+
+.container.viola .left, .container.viola .right{
+    /* debug  */
+    border: 1px dashed black;
+    /* /debug  */
+    display: inline-block;
+    width: 50%;
+}
+/* /sezione viola  */
 
 /* #endregion main  */
 
@@ -129,6 +156,22 @@ section.bianca {
         width: 95%;
     }
     /* /prima sezione bianca  */
+
+    /* sezione viola  */
+    .container.viola {
+        /* debug  */
+        /* height: 900px; */
+        /* debug  */
+        width: 90%;
+    }
+
+    .container.viola .left, .container.viola .right{
+        /* debug  */
+        /* /debug  */
+        display: block;
+        width: 100%;
+    }
+    /* /sezione viola  */
     /* /main  */
 
 }
@@ -185,6 +228,24 @@ section.bianca {
         width: 100%;
     }
     /* /prima sezione bianca  */
+
+    
+    /* sezione viola  */
+    .container.viola {
+        /* debug  */
+        /* height: 900px; */
+        /* debug  */
+        width: 90%;
+    }
+
+    .container.viola .left, .container.viola .right{
+        /* debug  */
+        /* /debug  */
+        display: block;
+        width: 100%;
+    }
+    /* /sezione viola  */
+
     /* /main  */
 }
 /* /responsive mobile  */
