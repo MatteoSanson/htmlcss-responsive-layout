@@ -85,7 +85,7 @@ header {
 /* sezione viola  */
 section.viola {
     /* debug  */
-    height: 900px;
+    /* height: 900px; */
     /* debug  */
     background: #9792e4;
 }
@@ -108,6 +108,36 @@ section.viola {
     width: 50%;
 }
 /* /sezione viola  */
+
+
+/* seconda sezione bianca */
+.bianca.seconda {
+    /* debug  */
+    height: 1000px;
+    /* debug */
+}
+.container.testimonials {
+    /* debug  */
+    height: 1000px;
+    /* debug  */
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: block;
+    text-align: center;
+}
+
+.box-largo {
+    margin: 20px 0 20px 0;
+}
+
+.box-largo.violet {
+    height: 270px;
+    background: #9792e4;
+    border-radius: 20px;
+}
+/* /seconda sezione bianca  */
 
 /* #endregion main  */
 
@@ -150,12 +180,15 @@ section.viola {
     /* /header  */
 
 
+
     /* main  */
     /* prima sezione bianca  */ 
     .container {
         width: 95%;
     }
     /* /prima sezione bianca  */
+
+
 
     /* sezione viola  */
     .container.viola {
@@ -172,11 +205,28 @@ section.viola {
         width: 100%;
     }
     /* /sezione viola  */
+
+
+
+    /* seconda sezione bianca  */
+    .container.testimonials {
+        /* debug  */
+        /* height: 715px; */
+        /* debug  */
+        width: 90%;
+    }
+    /* /seconda sezione bianca  */
+
     /* /main  */
 
 }
 
 /* /responsive tablet  */
+
+
+
+
+
 
 
 
@@ -230,6 +280,7 @@ section.viola {
     /* /prima sezione bianca  */
 
     
+
     /* sezione viola  */
     .container.viola {
         /* debug  */
@@ -245,6 +296,20 @@ section.viola {
         width: 100%;
     }
     /* /sezione viola  */
+
+
+
+     /* seconda sezione bianca  */
+     .bianca.seconda {
+        /* height: 1000px; */
+     }
+     .container.testimonials {
+        /* debug  */
+        /* height: 1000px; */
+        /* debug  */
+        width: 90%;
+    }
+    /* /seconda sezione bianca  */
 
     /* /main  */
 }
