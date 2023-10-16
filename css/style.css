@@ -82,7 +82,7 @@ header {
 /* /prima sezione bianca  */
 
 
-/* sezione viola  */
+/* prima sezione viola  */
 section.viola {
     /* debug  */
     /* height: 900px; */
@@ -107,7 +107,7 @@ section.viola {
     display: inline-block;
     width: 50%;
 }
-/* /sezione viola  */
+/* /prima sezione viola  */
 
 
 /* seconda sezione bianca */
@@ -169,6 +169,30 @@ section.viola {
 
 /* /seconda sezione viola  */
 
+
+/* terza sezione bianca  */
+section.about .container-about {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    height: 400px;
+}
+
+section.about .container-about .left, section.about .container-about .right {
+    display: inline-block;
+    border: 1px dashed black;
+    height: 100%;
+}
+
+section.about .container-about .left {
+    width: 70%;
+}
+
+section.about .container-about .right {
+    width: 29%;
+}
+/* /terza sezione bianca  */
+
 /* #endregion main  */
 
 
@@ -179,7 +203,7 @@ section.viola {
 
 
 
-
+/* ++++++++++++++++++++++++++++++++++++++++++++  */
 /* responsive tablet  */
 
 @media screen and (max-width:992px){
@@ -268,7 +292,14 @@ section.viola {
 
     /* /seconda sezione viola  */
 
-        /* /main  */
+
+    /* terza sezione bianca  */
+    section.about .container-about {
+        width: 90%;
+    }
+    /* /terza sezione bianca  */
+
+    /* /main  */
 
     }
 
@@ -279,7 +310,7 @@ section.viola {
 
 
 
-
+/* +++++++++++++++++++++++++++++++++++++++++++  */
 
 /* responsive mobile  */
 @media screen and (max-width:768px){
@@ -378,12 +409,23 @@ section.viola {
     .viola .container.viola2 .box {
         width: 100%;
     }
-
-    /* .viola {
-        text-align: center;
-    } */
-
     /* /seconda sezione viola  */
+
+
+
+    /* terza sezione bianca  */
+    section.about .container-about {
+        width: 90%;
+        display: block;
+    }
+
+    section.about .container-about .left, section.about .container-about .right {
+        display: block;
+        border: 1px dashed black;
+        width: 100%;
+    }
+
+    /* /terza sezione bianca  */
 
     /* /main  */
 }
