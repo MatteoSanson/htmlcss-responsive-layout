@@ -139,6 +139,35 @@ section.viola {
 }
 /* /seconda sezione bianca  */
 
+
+
+/* seconda sezione viola  */
+.container {
+    /* debug  */
+    height: 715px;
+    /* debug  */
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.viola .container .box {
+    width: calc((100% / 3) - 50px);
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.viola {
+    text-align: center;
+}
+
+/* /seconda sezione viola  */
+
 /* #endregion main  */
 
 
@@ -217,9 +246,30 @@ section.viola {
     }
     /* /seconda sezione bianca  */
 
-    /* /main  */
 
-}
+    /* seconda sezione viola  */
+    .viola .container {
+        /* debug  */
+        height: 915px;
+        /* debug  */
+        width: 90%;
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    .viola .container.viola2 .box {
+        width: calc((100% / 2) - 50px);
+    }
+
+    .viola {
+        text-align: center;
+    }
+
+    /* /seconda sezione viola  */
+
+        /* /main  */
+
+    }
 
 /* /responsive tablet  */
 
@@ -310,6 +360,29 @@ section.viola {
         width: 90%;
     }
     /* /seconda sezione bianca  */
+
+
+    /* seconda sezione viola  */
+    .viola .container.viola2 {
+        /* debug  */
+        height: 2300px;
+        /* debug  */
+        width: 90%;
+        padding-bottom: 100px;
+        margin-bottom: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .viola .container.viola2 .box {
+        width: 100%;
+    }
+
+    /* .viola {
+        text-align: center;
+    } */
+
+    /* /seconda sezione viola  */
 
     /* /main  */
 }
