@@ -41,6 +41,8 @@ header {
     justify-content: space-between;
 }
 
+
+
 .fa-solid.fa-bars {
     display: none;
 }
@@ -74,15 +76,16 @@ section.bianca {
     .nav-bar {
         width: 95%;
         position: relative;
-        /* align-items: center; */
+        font-size: 1.5rem;
     }
 
 
     .fa-solid.fa-bars {
         display: block;
         position: absolute;
-        bottom: 30px;
+        bottom: 25px;
         right: 0;
+        
     }
 
     .nav-right .menu {
@@ -91,6 +94,8 @@ section.bianca {
 
 }
 /* ++++ /navbar ++++  */
+
+/* /responsive tablet  */
 
 
 
@@ -111,7 +116,7 @@ section.bianca {
     .fa-solid.fa-bars {
         display: block;
         position: absolute;
-        bottom: 15px;
+        bottom: 20px;
         right: 0;
     }
 
