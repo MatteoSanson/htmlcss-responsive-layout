@@ -65,11 +65,7 @@ button.menu a {
 /* prima sezione bianca  */
 
 .container {
-    /* debug  */
-    /* height: 715px; */
-    /* debug  */
     max-width: 70%;
-    /* max-width: 1200px; */
     margin: auto;
     margin-top: 50px;
     margin-bottom: 100px;
@@ -84,10 +80,7 @@ button.menu a {
     border-radius: 20px;
     flex-grow: 1;
     text-align: center;
-    /* +++++++  */
     padding: 1.875rem 1.25rem 0 1.25rem;
-    /* padding-left: 1.25rem;
-    padding-top: 1.875rem; */
 }
 
 .container .box.grande {
@@ -101,8 +94,6 @@ button.menu a {
 .box.grande .left {
     width: 50%;
     text-align: left;
-    /* margin-left: 1.25rem;
-    margin-top: 1.875rem; */
 }
 
 .box.grande .right {
@@ -146,7 +137,6 @@ button.blue {
 .bianca .container .box i {
     font-size: 3.4375rem;
     color: #0084fd;
-    /* padding-bottom: 1.5625rem; */
 }
 
 button.blue i.fa-brands.fa-apple {
@@ -176,16 +166,21 @@ section.viola {
 }
 
 .container.viola {
-    width: 60%;
+    max-width: 60%;
     margin: auto;
     padding-bottom: 60px;
     display: flex;
-    gap: 70px;
+    gap: 40px;
 }
 
-.container.viola .left, .container.viola .right{
+.container.viola .left {
     display: inline-block;
-    width: 46%;
+    width: 50%;
+}
+
+.container.viola .right {
+    width: 42%;
+    display: inline-block;
     position: relative;
 }
 
@@ -214,7 +209,7 @@ section.viola {
 .right .container-piccolo {
     width: 100%;
     background: white;
-    border-radius: 20px;
+    border-radius: 40px;
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -252,6 +247,8 @@ section.viola {
     background: #9792e4;
     border-radius: 50%;
 }
+
+
 /* /prima sezione viola  */
 
 
@@ -398,49 +395,35 @@ section.about .container-about .right {
     .container .box.grande {
         flex-wrap: wrap;
     }
-    /* .container .box.grande {
-        display: block;
-    }
     
-    .box.grande .left {
-        width: 100%;
-    }
-    
-    .box.grande .right {
-        width: 100%;
-        display: block;
-        text-align: left;
-    } */
-
-    /* .box.grande .right {
-        width: 50%;
-        display: flex;
-        align-items: end;
-        justify-content: center;
-    }
-    
-    .box.grande .right img{
-        width: 60%;
-    } */
-
     /* /prima sezione bianca  */
 
 
 
     /* sezione viola  */
     .container.viola {
-        /* debug  */
-        /* height: 900px; */
-        /* debug  */
         width: 90%;
+        display: flex;
+        direction: column;
     }
 
     .container.viola .left, .container.viola .right{
-        /* debug  */
-        /* /debug  */
         display: block;
         width: 100%;
+    } 
+
+    .container.viola .right {
+        position: static;
+        display: flex;
+        flex-direction: column;
     }
+
+    .right .container-piccolo {
+        position: static;
+        transform: none;
+        border-radius: 70px;
+    }
+
     /* /sezione viola  */
 
 
@@ -455,7 +438,7 @@ section.about .container-about .right {
     /* seconda sezione viola  */
     .viola .container {
         /* debug  */
-        height: 915px;
+        /* height: 915px; */
         /* debug  */
         width: 90%;
         padding-bottom: 100px;
