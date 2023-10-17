@@ -402,7 +402,7 @@ section.about .container-about .right {
 
     /* sezione viola  */
     .container.viola {
-        width: 90%;
+        max-width: 90%;
         display: flex;
         direction: column;
     }
@@ -411,6 +411,26 @@ section.about .container-about .right {
         display: block;
         width: 100%;
     } 
+
+    .viola .container.viola .left {
+        text-align: center;
+    }
+
+    .viola .container.viola .left h4, .viola .container.viola .left p {
+        text-align: left;
+    }
+
+    .viola .container.viola .left h4 {
+        font-size: 3.75rem;
+    }
+
+    .left .plan1 img {
+        width: 80%;
+    }
+
+    .container-piccolo .plan2 img {
+        width: 80%;
+    }
 
     .container.viola .right {
         position: static;
@@ -553,6 +573,10 @@ section.about .container-about .right {
         /* /debug  */
         display: block;
         width: 100%;
+    }
+
+    .viola .container.viola .left {
+        text-align: center;
     }
     /* /sezione viola  */
 
