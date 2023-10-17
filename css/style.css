@@ -328,10 +328,16 @@ section.viola {
 
 
 /* seconda sezione viola  */
+.ambrogio {
+    padding-top: 3.125rem;
+}
+
+.ambrogio h2 {
+    color: white;
+    font-size: 2rem;
+}
+
 .container.viola2 {
-    /* debug  */
-    height: 815px;
-    /* debug */
     width: 70%;
     margin: auto;
     margin-top: 50px;
