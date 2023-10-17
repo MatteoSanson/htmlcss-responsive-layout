@@ -43,14 +43,14 @@ header {
     align-items: center;
 }
 
-button.menu {
+.button.menu {
     padding: 5px;
     border: none;
     border-radius: 15px;
     background: white;
 }
 
-button.menu a {
+.button.menu a {
     color: black;
 }
 
@@ -115,12 +115,14 @@ button.menu a {
 }
 
 .box.grande .left p {
-    font-size: 1.125rem bold;
+    font-size: 1.125rem;
+    font-weight: bold;
     line-height: 1.875rem;
     margin: .3125rem 0 .3125rem 0;
 }
 
-button.blue {
+.button.blue {
+    width: 10.625rem;
     padding: 10px 35px;
     display: flex;
     gap: 5px;
@@ -139,7 +141,7 @@ button.blue {
     color: #0084fd;
 }
 
-button.blue i.fa-brands.fa-apple {
+.button.blue i.fa-brands.fa-apple {
     color: white;
     font-size: .875rem;
 }
@@ -153,7 +155,8 @@ button.blue i.fa-brands.fa-apple {
 }
 
 .bianca .container .box p {
-    font-size: 1.125rem bold;
+    font-size: 1.125rem;
+    font-weight: bold;
     line-height: 1.875rem;
     padding-bottom: 1.5625rem;
 }
@@ -198,7 +201,7 @@ section.viola {
     color: white;
     font-size: 16px;
     line-height: 27px;
-    padding-bottom: ;
+    /* padding-bottom: ; */
 }
 
 .plan1 img {
@@ -404,7 +407,7 @@ section.about .container-about .right {
     .container.viola {
         max-width: 90%;
         display: flex;
-        direction: column;
+        flex-direction: column;
     }
 
     .container.viola .left, .container.viola .right{
