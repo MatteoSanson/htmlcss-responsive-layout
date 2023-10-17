@@ -172,28 +172,85 @@ button.blue i.fa-brands.fa-apple {
 
 /* prima sezione viola  */
 section.viola {
-    /* debug  */
-    /* height: 900px; */
-    /* debug  */
     background: #9792e4;
 }
 
 .container.viola {
-    /* debug  */
-    height: 900px;
-    /* debug  */
     width: 60%;
     margin: auto;
-    text-align: center;
-    gap: 0;
+    padding-bottom: 60px;
+    display: flex;
+    gap: 70px;
 }
 
 .container.viola .left, .container.viola .right{
-    /* debug  */
-    border: 1px dashed black;
-    /* /debug  */
     display: inline-block;
-    width: 50%;
+    width: 46%;
+    position: relative;
+}
+
+.viola .container.viola .left {
+    text-align: left;
+}
+
+.viola .container.viola .left h4 {
+    color: white;
+    font-size: 34px;
+    padding: 100px 0 40px 0;
+}
+
+.viola .container.viola .left p {
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    padding-bottom: ;
+}
+
+.plan1 img {
+    padding-top: 5rem;
+    width: 100%;
+}
+
+.right .container-piccolo {
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-piccolo .plan2 img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.container-piccolo h4 {
+    font-size: 1.5rem;
+    padding: 1.25rem 0 1.25rem 0;
+}
+
+.container-piccolo p {
+    font-size: 1.125rem;
+    line-height: 2.1875rem;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+.right .tondo-viola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+    height: 4vw;
+    background: #9792e4;
+    border-radius: 50%;
 }
 /* /prima sezione viola  */
 
