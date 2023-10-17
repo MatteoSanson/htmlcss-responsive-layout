@@ -312,10 +312,11 @@ section.viola {
 }
 
 .info-pers p {
-    padding-top: 2.1875rem;
-    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem;
+    padding-bottom: .9375rem;
     color: white;
     font-size: 1.25rem;
+    line-height: 1.875rem;
 }
 
 .info-pers h5 {
