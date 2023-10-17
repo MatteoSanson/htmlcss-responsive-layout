@@ -7,7 +7,7 @@
 
 body {
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* #region header  */
@@ -57,9 +57,10 @@ button.menu {
 
 .container {
     /* debug  */
-    height: 715px;
+    /* height: 715px; */
     /* debug  */
     width: 70%;
+    max-width: 1200px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 100px;
@@ -80,6 +81,51 @@ button.menu {
     width: calc((100% / 3 * 2) - 50px);
     flex-grow: 2;
     text-align: center;
+    display: flex;
+    align-items: stretch;
+}
+
+.box.grande .left {
+    width: 50%;
+    text-align: left;
+    margin-left: 1.25rem;
+    margin-top: 1.875rem;
+}
+
+.box.grande .right {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.box.grande .right img{
+    width: 60%;
+}
+
+.box.grande .left h4 {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    color: #0084fd;
+}
+
+.box.grande .left p {
+    font-size: 1.125rem bold;
+    line-height: 1.875rem;
+    margin: 30px 0 30px 0;
+}
+
+button.blue {
+    padding: 10px 35px;
+    display: flex;
+    gap: 5px;
+    border: none;
+    border-radius: 20px;
+    background: #0084fd;
+    color: white;
+    margin-bottom: 40px;
+    font-size: .875rem;
+    letter-spacing: 2px;
 }
 /* /prima sezione bianca  */
 
