@@ -482,12 +482,90 @@ section.about .container-about .right h4{
 }
 /* /terza sezione bianca  */
 
+
+
+
+/* terza sezione viola */
+section.viola .end-main {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+section.viola .end-main h4 {
+    padding: 60px 0 20px 0;
+    color: lightgrey;
+    text-transform: uppercase;
+}
+
+section.viola .end-main h3 {
+    color: white;
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+section.viola .end-main h2 {
+    color: orange;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+section.viola .end-main p {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+button.end {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: 0;
+    background-color: white;
+    color: #9792e4;
+    margin: 25px 0;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+section.viola .end-main p a {
+    text-decoration: underline;
+}
+
+/* /terza sezione viola */
+
+
 /* #endregion main  */
 
 
 
-/* #region footer  */
 
+/* #region footer  */
+footer {
+    background: #333333;
+}
+
+section.finale {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+section.finale p {
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+section.finale :last-child {
+    padding-top: 50px;
+}
+
+section.finale p a {
+    color: #9792e4;
+    text-decoration: underline;
+}
 /* #endregion footer  */
 
 
@@ -629,7 +707,17 @@ section.about .container-about .right h4{
     }
     /* /terza sezione bianca  */
 
+
+
+    section.viola .end-main {
+        width: 80%;
+    }
+
     /* /main  */
+
+    section.finale {
+        width: 70%;
+    }
 
     }
 
@@ -778,13 +866,37 @@ section.about .container-about .right h4{
 
 
     section.about .container-about .left, section.about .container-about .right {
-        display: block;
+        /* display: block; */
         /* border: 1px dashed black; */
         width: 100%;
+        padding-top: 50px;
     }
 
+    .cont-img-virgolette {
+        width: 40%;
+    }
+
+    .cont-img-virgolette i.fa-solid.fa-quote-left {
+        font-size: 70px;
+    }
+
+    section.about .container-about .right h4 {
+        line-height: 40px;
+        font-size: 30px;
+        padding-right: 50px;
+    }
+
+    button.linkedin {
+        font-size: 20px;
+        width: 250px;
+        padding: 10px 0;
+    }
     /* /terza sezione bianca  */
 
     /* /main  */
+
+    section.finale {
+        width: 90%;
+    }
 }
 /* /responsive mobile  */
