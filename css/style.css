@@ -393,14 +393,17 @@ button.more {
 section.about .container-about {
     width: 70%;
     margin: 0 auto;
-    text-align: center;
-    height: 400px;
+    /* text-align: left; */
+    /* height: 400px; */
+    padding: 80px 0 100px 0;
+    display: flex;
 }
 
 section.about .container-about .left, section.about .container-about .right {
-    display: inline-block;
-    border: 1px dashed black;
-    height: 100%;
+    /* display: inline-block; */
+    /* border: 1px dashed black; */
+    /* height: 100%; */
+    /* padding: 0 70px; */
 }
 
 section.about .container-about .left {
@@ -408,7 +411,74 @@ section.about .container-about .left {
 }
 
 section.about .container-about .right {
-    width: 29%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+section.about .container-about .left h2{
+    color: #9792e4;
+    font-size: 45px;
+    padding-bottom: 40px;
+}
+
+
+section.about .container-about .left :nth-child(2){
+    padding-bottom: 45px;
+}
+
+section.about .container-about .left p {
+    margin-right: 100px;
+    line-height: 30px;
+}
+
+button.linkedin {
+    background-color: #9792e4;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    width: 150px;
+}
+
+section.about .container-about .right h4{
+    color: #9792e4;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.cont-img-virgolette {
+    width: 60%;
+    /* background: yellow; */
+    /* height: 300px; */
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.img-cosimo {
+    /* background: red; */
+    width: 100%;
+    /* height: 20%; */
+    /* object-fit: contain; */
+    border-radius: 50%;
+    overflow: hidden;
+    /* display: block; */
+}
+
+.img-cosimo img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.cont-img-virgolette i.fa-solid.fa-quote-left {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 50px;
+    color: #9792e4;
 }
 /* /terza sezione bianca  */
 
@@ -696,9 +766,13 @@ section.about .container-about .right {
         display: block;
     }
 
+    section.about .container-about .left p {
+        margin-right: 0;
+    }
+
     section.about .container-about .left, section.about .container-about .right {
         display: block;
-        border: 1px dashed black;
+        /* border: 1px dashed black; */
         width: 100%;
     }
 
