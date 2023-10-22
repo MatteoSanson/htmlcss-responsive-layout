@@ -682,6 +682,11 @@ section.finale p a {
     .container.testimonials {
         width: 90%;
     }
+
+    .box-largo.violet .imgn-pers {
+        width: 20vw;
+        height: 20vw;
+    }
     /* /seconda sezione bianca  */
 
 
@@ -694,6 +699,7 @@ section.finale p a {
         padding-bottom: 100px;
         margin-bottom: 0;
     }
+
 
     .viola .container.viola2 .box {
         width: calc((100% / 2) - 50px);
@@ -836,6 +842,18 @@ section.finale p a {
         /* height: 1000px; */
         /* debug  */
         width: 90%;
+    }
+
+    .box-largo.violet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .box-largo.violet .imgn-pers {
+        width: 30vw;
+        height: 30vw;
     }
     /* /seconda sezione bianca  */
 
