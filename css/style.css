@@ -669,6 +669,11 @@ section.finale p a {
         border-radius: 70px;
     }
 
+    .right .tondo-viola {
+        width: 7vw;
+        height: 7vw;
+    }
+
     /* /sezione viola  */
 
 
@@ -811,6 +816,11 @@ section.finale p a {
 
     .viola .container.viola .left {
         text-align: center;
+    }
+
+    .right .tondo-viola {
+        width: 9vw;
+        height: 9vw;
     }
     /* /sezione viola  */
 
