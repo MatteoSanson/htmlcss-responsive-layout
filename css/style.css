@@ -104,7 +104,7 @@ header {
 }
 
 .box.grande .right img{
-    width: 60%;
+    max-width: 250px;
 }
 
 .box.grande .left h4 {
@@ -293,9 +293,9 @@ section.viola {
 .imgn-pers {
     width: 12vw;
     height: 12vw;
-    border-radius: 50%;
+    /* border-radius: 50%;
     overflow: hidden;
-    position: relative;
+    position: relative; */
 }
 
 .imgn-pers img {
@@ -351,12 +351,39 @@ section.viola {
     width: calc((100% / 3) - 50px);
     background: white;
     border-radius: 20px;
-    text-align: center;
-    padding-bottom: 100px;
+    text-align: left;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
 }
 
 .viola {
     text-align: center;
+}
+
+.viola .container.viola2 .box h2, .viola .container.viola2 .box h4 {
+    color: #9792e4;
+    padding-bottom: 15px;
+}
+
+.container.viola2 .box p {
+    padding-bottom: 25px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.viola .container.viola2 .box h2 {
+    font-size: 45px;
+}
+
+button.more {
+    color: white;
+    background:#9792e4;
+    border-radius: 20px;
+    padding: 10px 0;
+    width: 140px;
+    border: 0;
 }
 
 /* /seconda sezione viola  */
@@ -585,7 +612,6 @@ section.about .container-about .right {
     }
 
     .container .box.grande {
-        height: 600px;
         width: 100%;
     }
 
@@ -648,10 +674,10 @@ section.about .container-about .right {
     /* seconda sezione viola  */
     .viola .container.viola2 {
         /* debug  */
-        height: 2300px;
+        /* height: 2300px; */
         /* debug  */
         width: 90%;
-        padding-bottom: 100px;
+        padding-bottom: 60px;
         margin-bottom: 0;
         display: block;
         margin: 0 auto;
