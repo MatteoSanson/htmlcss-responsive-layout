@@ -754,6 +754,10 @@ section.about .container-about .right h4{
         margin: 0 auto;
     }
 
+    section.viola .ambrogio h2 {
+        padding-bottom: 65px; 
+    } 
+
     .viola .container.viola2 .box {
         width: 100%;
     }
@@ -764,12 +768,14 @@ section.about .container-about .right h4{
     /* terza sezione bianca  */
     section.about .container-about {
         width: 90%;
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
-    section.about .container-about .left p {
+    /* section.about .container-about .left p {
         margin-right: 0;
-    }
+    } */
+
 
     section.about .container-about .left, section.about .container-about .right {
         display: block;
